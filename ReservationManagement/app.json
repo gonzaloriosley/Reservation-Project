@@ -1,0 +1,26 @@
+{
+  "id": "b5a6f15e-a39c-49fa-8160-dcd16205c54a",
+  "name": "ReservationManagement",
+  "publisher": "Dynamic People",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://ReservationManagement.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}
