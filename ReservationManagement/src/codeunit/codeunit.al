@@ -183,7 +183,7 @@ codeunit 50100 AzureFunctions
             ReservationEntry2.Positive := true;
             ReservationEntry2.Validate("Quantity (Base)", -ReservationEntry."Quantity (Base)");
             ReservationEntry2.Validate("Source Type", Database::"Purchase Line");
-            ReservationEntry.Validate("Source Subtype", 1);
+            ReservationEntry2.Validate("Source Subtype", 1);
             JSolutionToken.AsObject().Get('supplyline', JFieldToken);
             ReservationEntry2.Validate("Source ID", GetDocument(JFieldToken.AsValue().AsText()));
             ReservationEntry2.Validate("Source Ref. No.", GetLineNo(JFieldToken.AsValue().AsText()));
